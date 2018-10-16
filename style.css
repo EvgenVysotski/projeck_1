@@ -41,6 +41,7 @@ input[type*=text]:hover ~ .d4,
 input[type*=email]:hover ~ .d5,
 input[type=password]:hover ~ .d3{
 	max-height: 50px;
+	max-width: 250px;
 	background-color: lightblue;
 	position: relative;
 	margin: 5px 5px 5px 290px;
@@ -48,6 +49,7 @@ input[type=password]:hover ~ .d3{
 	color: blue;
 	border-width: 1px;
 	text-align: center;
+	position: absolute;
 	
 }
 .d3, .d4, .d5{width: 80%;
